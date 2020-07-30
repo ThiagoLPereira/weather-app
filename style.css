@@ -1,0 +1,66 @@
+body {
+  background-color: darkblue;
+}
+.first-container {
+  display: flex;
+  align-items: center;
+}
+#column {
+  float: left;
+  width: 33.33%;
+}
+#container {
+  position: relative;
+  border-radius: 25px;
+  background: rgb(158, 158, 226);
+  padding: 10px 0px 50px 0px;
+  width: 400px;
+  height: 600px;
+  box-shadow: 5px 5px 5px 5px rgb(14, 13, 13);
+}
+p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+#weather-container {
+  position: absolute;
+  background: #9192eb;
+  padding: 50px 50px 50px 50px;
+  width: 300px;
+  height: 300px;
+}
+#weather-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#temperature-value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+}
+#temperature-value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+}
+#temperature-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
